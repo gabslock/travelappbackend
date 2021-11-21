@@ -1,12 +1,20 @@
+/*
+@name: Gabriel Jucá
+@date: 21st Nov 2021
+Expense.java
+ */
 package ie.cct.travelappbackend.model;
 
+//Expense class that will be the model of every expense object
+
 public class Expense {
-	
+
+	// Every expense has amount, description, trip and user as variables
 	private double amount;
 	private String description;
 	private String trip;
 	private String user;
-	
+
 	public Expense() {
 	}
 

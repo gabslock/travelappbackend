@@ -1,7 +1,15 @@
+/*
+@name: Gabriel Jucá
+@date: 21st Nov 2021
+User.java
+ */
 package ie.cct.travelappbackend.model;
+
+//User class that will be the model of every user object
 
 public class User {
 	
+	//Every user has a username and password and variables
 	private String username;
 	private String password;
 	
